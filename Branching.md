@@ -24,6 +24,11 @@ First, switch to the branch you wanna rename.
   >  git switch -c branchName
 *-c* stands for create.
 
+## To list branches created
+  >  git branch
+  >  git branch -v 
+*To see the last commit in the branch , include flag -v*
+
 # HEAD
 
 It is referencing the tip of current branch we switch to. If switched to the main branch, the HEAD ref 
