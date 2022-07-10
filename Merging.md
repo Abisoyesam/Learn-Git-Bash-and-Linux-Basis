@@ -8,3 +8,12 @@ The idea of merging is to incorporate the changes in the branches from one branc
  2. Use the command:
      > git merge "branchToMerge"
 **The above step is used for fast forward merge.**
+
+## Merge Conflict
+You need to manually resolve merge conflict. Steps to resolve the conflict:
+ 1. Open the file with merge conflict.
+ 2. Edit the file to remove the conflict.
+ 3. Remove the conflict 'marker' in the file.
+ 4. Add your changes and make a commit.
+
+
